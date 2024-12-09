@@ -3,9 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.css'
+  standalone: false
 })
 export class AppComponent {
-  title = 'base';
+  public title: string = 'Mi Primera App de Angular';
 }
